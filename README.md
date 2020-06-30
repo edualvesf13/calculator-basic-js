@@ -10,4 +10,16 @@
 ![GitHub](https://img.shields.io/github/license/edualvesf13/calculator-basic-js?color=green)
 
 
-⭐ Basic calculator developed in JavaScript.
+> ⭐ Basic calculator developed in JavaScript.
+
+---
+
+# :pushpin: Table of Contents
+
+* [Challenges](#rocket-features)
+* [License](#closed_book-license)
+
+# :closed_book: Challenges
+
+# :closed_book: License
+[MIT License](https://github.com/edualvesf13/calculator-basic-js/blob/master/LICENSE) © [Du Ferreira](http://duferreira.com.br/)
