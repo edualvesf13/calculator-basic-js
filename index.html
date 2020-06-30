@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculado Js</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div id="calculadora">
+            <div id="display"></div>
+            <button class="btn-action" value="AC">AC</button> <button class="btn-action" value="%">%</button> <button class="btn-action" value="x">x</button> <button class="btn-action" value="/">/</button>
+            <button class="btn-number" value="7">7</button> <button class="btn-number" value="8">8</button> <button class="btn-number" value="9">9</button> <button class="btn-action" value="+">+</button>
+            <button class="btn-number" value="4">4</button> <button class="btn-number" value="5">5</button> <button class="btn-number" value="6">6</button> <button class="btn-action" value="-">-</button>
+            <button class="btn-number" value="1">1</button> <button class="btn-number" value="2">2</button> <button class="btn-number" value="3">3</button> <button class="btn-igual btn-action" value="=">=</button>
+            <button class="btn-number" value="0">0</button> <button class="btn-number" value=".">.</button>
+        </div>
+    </div>
+    
+    <script>
+        let btnNumber = document.querySelectorAll('.btn-number')
+        btnNumber[0].onclick = btnNumberClick;
+        btnNumber[1].onclick = btnNumberClick;
+        btnNumber[2].onclick = btnNumberClick;
+        btnNumber[3].onclick = btnNumberClick;
+        btnNumber[4].onclick = btnNumberClick;
+        btnNumber[5].onclick = btnNumberClick;
+        btnNumber[6].onclick = btnNumberClick;
+        btnNumber[7].onclick = btnNumberClick;
+        btnNumber[8].onclick = btnNumberClick;
+        btnNumber[9].onclick = btnNumberClick;
+        btnNumber[10].onclick = btnNumberClick;
+
+        let btnAction = document.querySelectorAll('.btn-action')
+        btnAction[0].onclick = btnActionClick;
+        btnAction[1].onclick = btnActionClick;
+        btnAction[2].onclick = btnActionClick;
+        btnAction[3].onclick = btnActionClick;
+        btnAction[4].onclick = btnActionClick;
+        btnAction[5].onclick = btnActionClick;
+        btnAction[6].onclick = btnActionClick;
+    </script>
+</body>
+</html>
